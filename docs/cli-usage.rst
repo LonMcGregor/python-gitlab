@@ -67,7 +67,8 @@ parameters. You can override the values in each GitLab server section.
      - ``True``, ``False``, or a ``str``
      - Verify the SSL certificate. Set to ``False`` to disable verification,
        though this will create warnings. Any other value is interpreted as path
-       to a CA_BUNDLE file or directory with certificates of trusted CAs.
+       to a CA_BUNDLE file or directory with certificates of trusted CAs. Do
+       not surround the path string with quotes.
    * - ``timeout``
      - Integer
      - Number of seconds to wait for an answer before failing.
